@@ -1,0 +1,81 @@
+@import url(./Main.css);
+@import url(./Sobre.css);
+@import url(./Services.css);
+@import url(./Staff.css);
+@import url(./Testemunhas.css);
+@import url(./Gallery.css);
+@import url(./Contato.css);
+@import url(./Footer.css);
+@import url(./Top.css);
+@import url(./Menu.css);
+
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(41, 41, 41);
+    z-index: 99;
+}
+
+header .logo{
+    margin-left: 50px;
+}
+
+header .logo img{
+    max-width: 100px;
+}
+
+header nav{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #btn_menu{
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav #btn_menu ion-icon{
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 50px;
+}
+
+.copyring{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyring p{
+    font-size: 15px;
+    color: red;
+}
+
+
+
