@@ -99,3 +99,9 @@
     color: red;
 }
 
+@media screen and (max-width:600px) {
+    .Dark img{
+        width: 300px;
+    }
+    
+}

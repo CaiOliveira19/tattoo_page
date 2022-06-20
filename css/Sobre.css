@@ -121,4 +121,8 @@
         width: 100%;
     }
 
+    .img2 {
+        display: none;
+    }
+
 }

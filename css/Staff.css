@@ -121,14 +121,22 @@
 }
 
 @media screen and (max-width:1340px) {
-    #staff{
+    #Staff{
         height: 150vh;
     }
 }
 
 @media screen and (max-width:900px) {
-    #staff{
-        height: 200vh;
+    #Staff{
+        height: 250vh!important;
     }
 }
+
+@media screen and (max-width:600px) {
+    .card{
+        width: 18rem;
+    }
+}
+
+
 
