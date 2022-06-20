@@ -46,6 +46,7 @@
     width: 50%;
     height: 50%;
     padding: 10px;
+    transition: 1s all ease-in-out;
 }
 
 .descricao{
@@ -68,28 +69,28 @@
 
 
 .service_about:nth-child(1){
-    background-image: url(img/agulha\ e\ tinta.png.crdownload);
+    background-image: url(/img/agulha\ e\ tinta.png.crdownload);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: top;
 }
 
 .service_about:nth-child(2){
-    background-image: url(img/pngwing.com.png);
+    background-image: url(/img/pngwing.com.png);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: top;
 }
 
 .service_about:nth-child(3){
-    background-image: url(img/NicePng_tatoo-png_903886.png);
+    background-image: url(/img/NicePng_tatoo-png_903886.png);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position:50%;
 }
 
 .service_about:nth-child(4){
-    background-image: url(img/NicePng_school-vector-png_7851122.png);
+    background-image: url(/img/NicePng_school-vector-png_7851122.png);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: top;
@@ -99,7 +100,7 @@
     margin-left: 50px;
     width: 40%;
     height: 100%;
-    background-image: url(img/home-1-475x858.png);
+    background-image: url(/img/home-1-475x858.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70%;

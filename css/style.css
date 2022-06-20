@@ -16,6 +16,11 @@
     list-style-type: none;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 header{
@@ -28,7 +33,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    opacity: 1;
     background-color: rgb(41, 41, 41);
+    transition: 250ms all ease-in-out;
     z-index: 999;
 }
 

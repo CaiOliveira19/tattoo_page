@@ -87,17 +87,20 @@
 .about1{
     font-size: 20px;
     font-weight: 600;
+    transition: 1s all ease-in-out;
 }
 
 .About2{
     font-size: 15px;
     color: rgba(255, 255, 255, 0.61);
+    transition: 1s all ease-in-out;
 }
 
 .Ass{
     margin-left: 60%;
     width: 80px;
     height: 80px;
+    transition: 1s all ease-in-out;
 }
 
 .Ass img{
