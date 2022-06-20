@@ -48,19 +48,19 @@
 }
 
 .card:nth-child(1){
-    background-image: url(/img/team-creative-1-370x480.jpg);
+    background-image: url(img/team-creative-1-370x480.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .card:nth-child(2){
-    background-image: url(/img/tatuador-profissional-trabalha-em-estudio-de-tatuagemskin-master-trabalhando-em-dispositivo-de-maquina-de-tatuagem-profissional-no-salao-de-tatuagem_257488-4884.webp);
+    background-image: url(img/tatuador-profissional-trabalha-em-estudio-de-tatuagemskin-master-trabalhando-em-dispositivo-de-maquina-de-tatuagem-profissional-no-salao-de-tatuagem_257488-4884.webp);
     background-position:10%;
     background-size: cover;
 }
 
 .card:nth-child(3){
-    background-image: url(/img/team-creative-3-370x480.jpg);
+    background-image: url(img/team-creative-3-370x480.jpg);
     background-position: center;
     background-size: cover;
 }
